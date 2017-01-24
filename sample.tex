@@ -1,0 +1,63 @@
+% !TEX TS-program = XeLaTeX
+%\documentclass[oneside]{thesis}
+%برای پایان‌نامه ارشد، از خط زیر به جای خط بالا استفاده کنید
+\documentclass[Project,oneside]{thesis}
+%اگر نسخه دو رو از پایان‌نامه را می‌خواهید، oneside راحذف کنید
+
+
+
+\usepackage[colorlinks=true]{hyperref}
+
+\usepackage{longtable}
+\usepackage{float}
+
+\usepackage[final]{pdfpages}
+\usepackage{array}
+\usepackage{multicol}
+\usepackage{amssymb}
+\usepackage{xepersian}
+\usepackage{syntax}
+\usepackage{booktabs}
+
+
+
+
+
+\hypersetup{ 
+colorlinks=true,linkcolor=black, anchorcolor=green, citecolor=magenta, urlcolor=cyan, filecolor=magenta, pdftoolbar=true, pdfpagemode=UseOutlines,
+}
+\settextfont[Scale=1]{XBNiloofar}
+\setdigitfont{PGaramond}
+
+\localisecommands
+\شروع{نوشتار}
+
+\آرم{\درج‌تصویر{logo}}
+\تاریخ{۳ بهمن ۱۳۹۵}
+\عنوان{معماری نرم‌افزار پیام‌رسان}
+\نویسنده{علی محبی،مهدی کشانی}
+\دانشگاه{دانشگاه صنعتی شریف\\دانشکده مهندسی کامپیوتر}
+\موضوع{‌ پروژه‌ی معماری نرم‌افزار}
+
+\frontmatter \makethesistitle \pagestyle{empty} \baselineskip1.2\baselineskip
+
+
+
+\pagestyle{plain}\pagenumbering{tartibi}\tableofcontents\listoffigures
+
+\mainmatter \pagestyle{headings} \baselineskip1.1\baselineskip
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\include{chap1}
+\include{chap2}
+\include{chap3}
+
+
+ \setLTRbibitems
+ \makeatletter
+ \bidi@AtBeginEnvironment{thebibliography}{\latinfont}
+ \makeatother
+ \bibliographystyle{IEEEtran} % such as plain
+ \bibliography{References} %such as MyReferences
+
+\پایان{نوشتار}

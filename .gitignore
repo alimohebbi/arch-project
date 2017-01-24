@@ -1,0 +1,10 @@
+
+sample.pdf
+*.aux
+sample.lof
+*.log
+*.toc
+*.out
+sample.synctex.gz
+
+
