@@ -98,4 +98,15 @@ S.~C. . C. G. E.~. Young, ``Messaging patterns in service-oriented
   \url{https://msdn.microsoft.com/en-us/library/aa480027.aspx}, April 2004,
   (Accessed on 01/24/2017).
 
+\bibitem{TheWhats:online}
+``The whatsapp architecture facebook bought for \$19 billion - high
+  scalability -,''
+  \url{http://highscalability.com/blog/2014/2/26/the-whatsapp-architecture-facebook-bought-for-19-billion.html},
+  Feb 2014, (Accessed on 01/24/2017).
+
+\bibitem{ScalingT:online}
+``Scaling twitter: Making twitter 10000 percent faster - high scalability -,''
+  \url{http://highscalability.com/scaling-twitter-making-twitter-10000-percent-faster},
+  Jun 2009, (Accessed on 01/24/2017).
+
 \end{thebibliography}
